@@ -1,0 +1,50 @@
+.header {
+  height: 64px;
+  display: flex;
+  margin-top: 0;
+  justify-content: space-between;
+}
+.header span {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+.header ul {
+  display: inline-flex;
+  border: 1px solid black;
+  text-decoration-style: none;
+  list-style-type: none;
+  height: 64px;
+  margin-top: 0;
+  align-items: center;
+}
+.header ul li {
+  display: flex;
+  margin-left: 16px;
+}
+.section1 {
+  display: flex;
+  background-color: lightgrey;
+}
+.section1 img {
+  width: 60%;
+  margin: 32px 24px;
+  border: 1px solid black;
+  height: 300px;
+}
+.section1 h1 {
+  border: 1px solid black;
+}
+.section1 h3 {
+  border: 1px solid black;
+}
+.section1 h4 {
+  border: 1px solid black;
+  text-align: center;
+}
+.section1right {
+  display: flex;
+  display: inline-block;
+  border: 1px solid black;
+  align-content: center;
+}

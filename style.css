@@ -6,12 +6,10 @@
 }
 .header span {
   display: flex;
-  border: 1px solid black;
   align-items: center;
 }
 .header ul {
   display: inline-flex;
-  border: 1px solid black;
   text-decoration-style: none;
   list-style-type: none;
   height: 64px;
@@ -29,22 +27,19 @@
 .section1 img {
   width: 60%;
   margin: 32px 24px;
-  border: 1px solid black;
   height: 300px;
 }
-.section1 h1 {
-  border: 1px solid black;
-}
-.section1 h3 {
-  border: 1px solid black;
-}
+.section1 h2 {  }
+.section1 h3 {  }
 .section1 h4 {
-  border: 1px solid black;
   text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: grey;
+  width: 80%;
 }
 .section1right {
   display: flex;
-  display: inline-block;
-  border: 1px solid black;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
 }

@@ -43,3 +43,160 @@
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* section 2*/
+.section2 {
+  display: inline-flex;
+  border: 3px solid black;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.leftimage {
+  display: inline-flex;
+  height: 250px;
+  border: 3px solid red;
+  margin: 32px 24px;
+}
+.lefttext {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.lefttext h1 {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.lefttext p {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+.right {
+  display: inline-flex;
+  flex-direction: column;
+  border: 3px solid blue;
+	width: 40%;
+}
+.right1 {
+   border: 3px solid green;
+}
+.right2 {
+  border: 3px solid purple;
+}
+.right3 {
+   border: 3px solid orange;
+}
+
+
+/*section 3*/
+.section3 {
+  display: flex;
+  flex-wrap: wrap-around;
+  flex-direction: column;
+
+}
+.boxes {
+  display: flex;
+  border: 5px red solid;
+  margin: 32px 72px;
+
+}
+h2 .section3 {
+
+
+}
+.box1 {
+  border: 1px black solid;
+  margin-right: 32px;
+}
+.box2 {
+  border: 1px black solid;
+  margin-right: 32px;
+}
+.box3 {
+  border: 1px black solid;
+}
+.box4 {
+  border: 1px black solid;
+  margin-right: 32px;
+}
+.box5 {
+  border: 1px black solid;
+  margin-right: 32px;
+}
+.box6 {
+  border: 1px black solid;
+}
+
+/*section 4*/
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.video {
+  height: 300px;
+  border: 5px solid black;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.left {
+  display: inline-flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 32px;
+}
+.lefttext {
+  margin-left: 24px;
+}
+.right {
+  display: inline-flex;
+  width: 40%;
+  border: 5px solid red;
+  flex-direction: column;
+}
+.body {
+  display: flex;
+}
+/*footer*/
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.video {
+  height: 300px;
+  border: 5px solid black;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.left {
+  display: inline-flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 32px;
+}
+.lefttext {
+  margin-left: 24px;
+}
+.right {
+  display: inline-flex;
+  width: 40%;
+  border: 5px solid red;
+  flex-direction: column;
+}
+.body {
+  display: flex;
+}
+/*footer*/
+.footer {
+  border-top: grey solid 1px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-left: 24px;
+}
